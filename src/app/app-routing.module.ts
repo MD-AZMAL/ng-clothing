@@ -6,6 +6,8 @@ import { ClothesPageComponent } from './components/pages/clothes-page/clothes-pa
 import { SignupComponent } from './components/signup/signup.component';
 import { CartPageComponent } from './components/pages/cart-page/cart-page.component';
 import { ProductPageComponent } from './components/pages/product-page/product-page.component';
+import { AboutUsComponent } from './components/pages/about-us/about-us.component';
+
 
 const routes: Routes = [
   {path: '', pathMatch: 'full', redirectTo: 'home'},
@@ -14,7 +16,8 @@ const routes: Routes = [
   {path: 'auth/register', component: SignupComponent},
   {path: 'clothes/:catId', component: ClothesPageComponent},
   {path: 'clothes/product/:id', component: ProductPageComponent},
-  {path: 'cart', component: CartPageComponent}
+  {path: 'cart', component: CartPageComponent},
+  {path: 'about', component: AboutUsComponent}
 ];
 
 @NgModule({

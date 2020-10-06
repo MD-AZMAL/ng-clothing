@@ -19,6 +19,7 @@ import { ProductPageComponent } from './components/pages/product-page/product-pa
 import { FilterComponent } from './components/filter/filter.component';
 import { FilterPipe } from './pipes/filter.pipe';
 import { FooterComponent } from './components/footer/footer.component';
+import { AboutUsComponent } from './components/pages/about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,8 @@ import { FooterComponent } from './components/footer/footer.component';
     FilterComponent,
     FilterPipe,
     FooterComponent
+    AboutUsComponent
+    hacktoberfest
   ],
   imports: [
     BrowserModule,
