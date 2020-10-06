@@ -18,6 +18,7 @@ import { CartPageComponent } from './components/pages/cart-page/cart-page.compon
 import { ProductPageComponent } from './components/pages/product-page/product-page.component';
 import { FilterComponent } from './components/filter/filter.component';
 import { FilterPipe } from './pipes/filter.pipe';
+import { FooterComponent } from './components/footer/footer.component';
 import { AboutUsComponent } from './components/pages/about-us/about-us.component';
 
 @NgModule({
@@ -36,7 +37,9 @@ import { AboutUsComponent } from './components/pages/about-us/about-us.component
     ProductPageComponent,
     FilterComponent,
     FilterPipe,
+    FooterComponent
     AboutUsComponent
+    hacktoberfest
   ],
   imports: [
     BrowserModule,
