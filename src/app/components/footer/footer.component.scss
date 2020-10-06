@@ -1,0 +1,9 @@
+@import "main-styles";
+
+.footer {
+    padding: $md-2;
+    background-color: rgba(0,0,0,.1);
+    ul {
+        list-style-type: none;
+    }
+}
